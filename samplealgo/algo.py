@@ -16,9 +16,9 @@ api_key_id = os.getenv('APCA_API_KEY_ID')
 api_secret = os.getenv('APCA_API_SECRET_KEY')
 
 api = tradeapi.REST(
-    base_url=base_url
+    base_url=base_url,
     key_id=api_key_id,
-    secret_key=api_secret,    
+    secret_key=api_secret   
 )
 
 
